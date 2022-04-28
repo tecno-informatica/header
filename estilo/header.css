@@ -85,7 +85,7 @@ main {
     top: 0;
   }
 
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 558px) {
     .topnav {
       flex-direction: column;
     }
