@@ -69,7 +69,7 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 560px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
