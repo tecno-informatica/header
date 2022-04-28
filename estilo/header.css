@@ -147,7 +147,7 @@ main {
   background-color: #3e8e41;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 525px) {
   .dropdown {
     display: none;
   }
