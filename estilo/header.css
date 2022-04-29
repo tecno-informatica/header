@@ -66,8 +66,8 @@ body {
 }
 
 main {
-    min-width: 350px;
-    max-width: 1080px;
+    min-width: 340px;
+    max-width: 1040px;
     margin: auto;
     padding: 15px;
     background-color: rgb(243, 240, 240);
