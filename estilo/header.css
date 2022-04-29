@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+:root {
+  --cor1:#3E76F0;
+  --cor2:#34A6F7;
+  --cor3:#3AC7E0;
+  --cor4:#6DF7E5;
+  --cor5:#69F0B8;
+}
 
 *{
     padding: 0;
@@ -19,7 +26,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-image: linear-gradient(var(--cor1), var(--cor2));
   height: 65px;
   position: fixed;
   width: 100%;
@@ -56,7 +63,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: var(--cor1);
   color: white;
   border-radius: 0px 4px 4px 0px;
   margin-top: -5px;
@@ -118,7 +125,7 @@ main {
 /*Botão Dropdown*/
 
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: var(--cor1);
   color: white;
   font-weight: bold;
   padding: 16px;
