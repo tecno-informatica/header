@@ -36,7 +36,8 @@ body {
 .logo {
  width: 200px;
  position: absolute;
- right: 10px
+ right: 10px;
+ top: 5px;
 }
 
 .topnav a {
@@ -78,7 +79,7 @@ main {
 
 @media screen and (max-width: 560px) {
   main {
-   margin-left: -58px;
+   margin-left: -62px;
    margin-right: -58px;
    
   }
@@ -170,9 +171,18 @@ main {
   }
 }
 
+/*
 .logorespon {
   height: 50px;
   position: absolute;
   left: 270px;
+}
+*/
+
+@media screen and (max-width: 560px) {
+  .logo {
+    width: 160px;
+    top: 10px;
+  }
 }
 
