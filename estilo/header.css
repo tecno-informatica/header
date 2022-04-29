@@ -78,7 +78,9 @@ main {
 
 @media screen and (max-width: 560px) {
   main {
-    min-width: 100%;
+   margin-left: -58px;
+   margin-right: -58px;
+   
   }
 }
 
